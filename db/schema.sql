@@ -1,14 +1,14 @@
 --This drops the database
-DROP DATABASE IF EXISTS company_db; 
+DROP DATABASE IF EXISTS employeeTracker_db_db; 
 --This creates the database "company" if it does not exist
-CREATE DATABASE company_db;
+CREATE DATABASE employeeTracker_db;
 
-USE company_db;
+USE employeeTracker_db;
 
 --creates the departments within the table
 CREATE TABLE department {
-  employee_id: INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-    employee_name: VARCHAR(100) NOT NULL
+  employee_id: INT, PRIMARY KEY, NOT NULL, AUTO_INCREMENT,
+    employee_name: VARCHAR(100), NOT NULL,
 
 };
 --creates the "role" with in the table

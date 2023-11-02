@@ -1,5 +1,5 @@
 --This drops the database
-DROP DATABASE IF EXISTS employeeTracker_db_db; 
+DROP DATABASE IF EXISTS employeeTracker_db; 
 --This creates the database "company" if it does not exist
 CREATE DATABASE employeeTracker_db;
 
